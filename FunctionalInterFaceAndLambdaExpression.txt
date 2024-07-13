@@ -1,0 +1,11 @@
+public class FunctionalInterFaceAndLambdaExpression {
+	interface FuncInterface
+	{
+		void showMsg();
+	}
+public static void main(String[] args) {
+FuncInterface obj=()->{ System.out.println("ream");};
+obj.showMsg();
+	}
+
+}
